@@ -33,7 +33,7 @@ const Section2 = () => {
     <div className='flex flex-col justify-between gap-10 items-center mt-24 p-4 rounded border border-gray-400 '>
         <div  className='section2top p-4 flex flex-col gap-3 md:flex-row w-full justify-evenly items-center '>
             <h2 className='text-4xl'>Our Services</h2>
-            <p className='font-light md:text-lg w-90 lg:w-100 lg:w-150 xl:w-190'>Discover a wide range of opportunities thorugh a comprehensive range of qualified services</p>
+            <p className='font-light md:text-lg w-90  lg:w-150 xl:w-190'>Discover a wide range of opportunities thorugh a comprehensive range of qualified services</p>
         </div>
         <Cards data = {arr} />
     </div>
